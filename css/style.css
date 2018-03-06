@@ -1,10 +1,10 @@
 
 body {
-  margin: 0;
-  padding: 0;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
 }
+
 .jumbotron {
   margin-bottom: 0px;
   background-color: white;
@@ -19,12 +19,4 @@ body {
   margin: 7px;
   background-color: #FF8300;
   color: white;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-.container {
-  text-align: center;
 }
