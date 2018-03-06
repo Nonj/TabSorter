@@ -10,7 +10,7 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["./js/jquery-3.3.1.min.js, ./js/content.js", "./js/popup.js"]
+        "js": ["./js/jquery-3.3.1.min.js", "./js/content.js", "./js/popup.js"]
       }
     ],
     "browser_action": {
