@@ -10,7 +10,7 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["./src/content.js", "./src/popup.js"]
+        "js": ["./js/jquery-3.3.1.min.js, ./js/content.js", "./js/popup.js"]
       }
     ],
     "browser_action": {
@@ -18,6 +18,6 @@
       "default_popup": "popup.html"
     },
     "background": {
-      "scripts": ["./src/background.js"]
+      "scripts": ["./js/background.js"]
     }
   }

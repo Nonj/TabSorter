@@ -1,6 +1,6 @@
 state = {}
 document.addEventListener('DOMContentLoaded', function () {
-    var button = document.getElementById('newButton');
+    var button = document.getElementById('buttonT');
     console.log(button);
     console.log("button sent");
 
@@ -26,20 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
                 }
             }
-
-            // chrome.tabs.move(tabId, {index: tabIndex});
         });
-
-        // chrome.tabs.query({
-        //     active: true,
-        //     currentWindow: true
-        // }, function (tabs) {
-        //     var activeTab = tabs[0];
-        //     chrome.tabs.sendMessage(activeTab.id, {
-        //         "message": "clicked_browser_action",
-        //         "tab": activeTab
-        //     });
-        // });
     });
 });
 

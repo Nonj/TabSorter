@@ -5,18 +5,28 @@
  value "popup.html".
  -->
 <html>
-  <head>
-    <title> Tab Sort</title>
-    <script src="./src/popup.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
 
+<head>
+  <title> Tab Sort</title>
+  <script src="./js/popup.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-  <body>
-    <h1>Sort Your Tabs</h1>
-    <div id="container">
-      <button type="button" id="newButton">Sort</button>
-      <button type="button" id="newButton2">Sort</button>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>TabSorter</h1>
+      <p id="authors">Created by: Omar Khan & Non Bunyatipanon</p>
+      <br>
+      <button id="buttonU" type="button" class="btn">Sort By Usage</button>
+      <button id="buttonT" type="button" class="btn">Sort By Title</button>
     </div>
-  </body>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
